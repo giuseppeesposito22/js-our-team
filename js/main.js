@@ -94,6 +94,7 @@ for (const member of teamMembers) {
   rowCardEl.innerHTML += generateMemberCard(member);
 }
 
+// EventListener per creare una nuova card al submit del form
 memberForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
