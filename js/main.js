@@ -106,4 +106,6 @@ memberForm.addEventListener("submit", (e) => {
   const newMember = { name, role, email, img };
 
   rowCardEl.innerHTML += generateMemberCard(newMember);
+
+  memberForm.reset();
 });
