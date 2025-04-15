@@ -107,5 +107,20 @@ memberForm.addEventListener("submit", (e) => {
 
   rowCardEl.innerHTML += generateMemberCard(newMember);
 
+  teamMembers.push(newMember);
+
   memberForm.reset();
 });
+
+// rowCardEl.innerHTML += `
+//   <div class="col col-sm-8"></div>
+// `
+
+// function myCreateElement(tagName, classes) {
+//   const newEl = document.createElement(tagName);
+//   newDiv.classList.add(classes);
+//   return newEl;
+// }
+
+// const newDiv = myCreateElement('div', ['col', 'col-sm-2']);
+// rowCardEl.appendChild(newDiv);
